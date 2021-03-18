@@ -35,3 +35,6 @@ require'lspconfig'.sumneko_lua.setup {
 require'lspconfig'.tsserver.setup{on_attach=require'completion'.on_attach}
 -- require'lspconfig'.svelte.setup{on_attach=require'completion'.on_attach}
 
+require'lspconfig'.cssls.setup{on_attach=require'completion'.on_attach}
+
+require'lspconfig'.html.setup{on_attach=require'completion'.on_attach}

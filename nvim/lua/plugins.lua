@@ -6,4 +6,10 @@ paq{'savq/paq-nvim', opt=true}     -- Let Paq manage itself
 
 paq 'neovim/nvim-lspconfig'
 paq 'nvim-lua/completion-nvim'
+paq 'nvim-treesitter/nvim-treesitter'
 paq 'mhartington/oceanic-next'
+paq 'nvim-lua/popup.nvim'
+paq 'nvim-lua/plenary.nvim'
+paq 'nvim-telescope/telescope.nvim'
+paq 'kyazdani42/nvim-tree.lua'
+paq 'kyazdani42/nvim-web-devicons'
