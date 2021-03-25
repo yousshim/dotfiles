@@ -1,5 +1,5 @@
 vim.g.nvim_tree_side = 'left' --left by default
-vim.g.nvim_tree_width = 40 --30 by default
+vim.g.nvim_tree_width = 25 --30 by default
 vim.g.nvim_tree_ignore = { '.git', 'node_modules', '.cache' } --empty by default
 vim.g.nvim_tree_auto_open = 1 --0 by default, opens the tree when typing `vim $DIR` or `vim`
 vim.g.nvim_tree_auto_close = 1 --0 by default, closes the tree when it's the last window

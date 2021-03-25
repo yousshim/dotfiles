@@ -21,3 +21,10 @@ vim.o.writebackup=false
 vim.wo.signcolumn="yes"
 vim.o.clipboard="unnamedplus"
 vim.o.autoread=true
+vim.o.ignorecase=true
+vim.o.smartcase=true
+
+local autocmd = require("utils").autocmd
+
+autocmd("TermOpen", "*", "setlocal nonumber")
+autocmd("BufWinEnter,WinEnter", "term://*", "startinsert")
