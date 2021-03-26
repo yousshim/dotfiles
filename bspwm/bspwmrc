@@ -15,3 +15,5 @@ bspc config gapless_monocle      true
 nitrogen --restore
 compton -fb
 $HOME/.config/polybar/launch.sh
+conky -d
+xautolock -time 5 -locker "lock && systemctl suspend" -detectsleep &
